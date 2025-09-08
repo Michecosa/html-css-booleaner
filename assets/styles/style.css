@@ -11,6 +11,7 @@ h1 {
 #byline {
   font-size: 22px;
   color: gray;
+  margin-bottom: 20px;
 }
 
 #the-booleaner {
@@ -20,3 +21,13 @@ h1 {
 #data {
   font-size: 15px;
 }
+
+.main-pic {
+  height: 500px;
+}
+
+#pics-info {
+  margin: 0;
+  font-size: 15px;
+}
+
