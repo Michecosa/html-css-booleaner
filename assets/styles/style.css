@@ -1,6 +1,10 @@
 
 /* Definisco la struttura del sito in modo da centrarne il contenuto e con un certo spaziamento */
 body {
+  margin: 0;
+}
+
+main {
   width: 80%;
   margin: 0 auto;
 }
@@ -10,19 +14,17 @@ body {
 /* Per lo sfondo del banner 
   Nota: con width: 100vw il banner si estende a destra ma non a sinistra della pagina
 */
-#banner {
-  width: 100vw; 
+header {
   background-color: #4ea0ff;
   background-image: url("../img/pattern.png");
   background-size: auto 180px;
 }
 
 /* Logo The Booleaner, all'interno del banner */
-#banner img {
+header img {
+  margin-left: 120px;
   margin-top: 60px;
   height: 60px;
-  width: 80%;
-  
 }
 
 
@@ -104,22 +106,24 @@ table thead {
 
 /* Sezione delle ulteriori notizie ("Potrebbe interessarti") */
 
-h4 {
+h3 {
   color: #808080;
   margin-bottom: 10px;
 }
 
 
-/* Definisco il layout per le immagini*/
+/* Layout per le immagini*/
 
 #might-like div {
+  padding-top:1px;
   width: fit-content;
-  height: 200px;
+  height: 170px;
   background-size: cover;
+  margin-bottom: 10px;
 }
 
 
-/* Per ogni layout definisco la propria immagine */
+/* Immagine per layout */
 .bottom-image-1 {
   background-image: url('../img/monitor.jpg');
 }
@@ -130,14 +134,11 @@ h4 {
 
 
 
-
-
-
-
-/* Sottotitolo: "Potrebbe interessarti" */
-.custom-h3 {
+.custom-p {
   margin-left: 10px;
   margin-right: 55px;
   margin-top: 10px;
   color: white;
+  font-size: 22px;
+  font-weight: bold;
 }
