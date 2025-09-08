@@ -1,7 +1,7 @@
 # Tim Berners-Lee Manifesto
 
 A web page presenting Tim Berners-Lee's manifesto, featuring a banner, title, images, article body, and a "You Might Like" section. Built with HTML5 and CSS3 without external frameworks.  
-🌐 [View online version](https://michecosa.github.io/html-css-booleaner/)
+🌐 [View online version](https://michecosa.github.io/html-css-booleaner/), but if you're interest in bonus details, then [click here](https://michecosa.github.io/html-css-booleaner/bonus)
 <br><br>
 ## Main Sections
 
