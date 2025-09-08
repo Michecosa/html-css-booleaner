@@ -71,9 +71,17 @@ h1 {
   font-family: "Google Sans",Roboto,Arial,sans-serif;
 }
 
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
 body {
-  display: grid;
-  place-items: center;
-  height: 200px;
-  
+  display: flex;
+  flex-direction: column; /* mette gli elementi in colonna */
+  justify-content: center; /* centraggio verticale */
+  align-items: center;     /* centraggio orizzontale */
+  gap: 20px;               /* distanza tra header e button */
+  height: 100vh;
+  margin: 0;
 }
