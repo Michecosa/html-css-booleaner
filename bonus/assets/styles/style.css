@@ -114,6 +114,12 @@ h3 {
 }
 
 
+#might-like {
+  border-top: 1px solid gray;
+  margin-top: 150px;
+}
+
+
 /* Layout per le immagini*/
 
 #might-like div {
@@ -122,6 +128,7 @@ h3 {
   height: 170px;
   background-size: cover;
   margin-bottom: 10px;
+  display: inline-block;
 }
 
 
@@ -143,4 +150,8 @@ h3 {
   color: white;
   font-size: 22px;
   font-weight: bold;
+}
+
+a {
+  text-decoration: none;
 }
