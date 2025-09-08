@@ -7,9 +7,11 @@ body {
 
 
 
-/* Per lo sfondo del banner */
+/* Per lo sfondo del banner 
+  Nota: con width: 100vw il banner si estende a destra ma non a sinistra della pagina
+*/
 #banner {
-  width: 100vw;
+  width: 100vw; 
   background-color: #4ea0ff;
   background-image: url("../img/pattern.png");
   background-size: auto 180px;
