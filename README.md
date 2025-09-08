@@ -35,3 +35,6 @@ A web page presenting Tim Berners-Lee's manifesto, featuring a banner, title, im
 ![Bottom Image 1](./assets/img/monitor.jpg)
 ![Bottom Image 2](./assets/img/graph.jpg)
 ![Banner image](./assets/img/pattern.png)
+<br><br>
+## Reference image
+![Screenshot of the website used as a reference](./assets/img/booleaner-screenshot.png)
