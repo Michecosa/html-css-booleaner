@@ -1,25 +1,19 @@
 
-/* Definisco la struttura del sito in modo da centrarne il contenuto e con un certo spaziamento */
-body {
-  margin: 0;
-  background-color: #f6f6f6;
-}
-
-/* Modifica del width se l'esigenza era creare una struttura statica
-e che quindi non cambiasse con il ridimensionamento della pagina */
 main {
   width: 1000px;
   margin: 0 auto;
   background-color: white;
   padding: 10px;
   padding-inline: 30px;
+  text-align: center;
 }
 
 
-header {
+body {
   background-color: #4ea0ff;
   background-image: url("../img/pattern.png");
   background-size: auto 180px;
+  margin: 0;
 }
 
 /* Logo The Booleaner, all'interno del banner */
@@ -28,8 +22,6 @@ header img {
   margin-top: 60px;
   height: 60px;
 }
-
-
 
 /* Titolo dell'articolo */
 h1 {
@@ -72,6 +64,7 @@ figure {
 
 
 
+
 /* Corpo dell'articolo */
 #article {
   font-size: 20px;
@@ -84,28 +77,19 @@ figure {
 /* Stile della tabella */
 
 table {
-  border-collapse: separate; 
-  border-spacing: 0;         
-  border-radius: 6px;
-  border: 2px solid black;
-  overflow: hidden;
-
-  margin-block: 30px;
+  text-align: left;
+  gap:0px;
+  border-collapse: collapse;
 }
-
-td, th {
-  padding: 10px;
-}
-
 
 table thead {
-  background-color: gray;
+  background-color: #1fa9e5;
   color: white;
   font-weight: bold;
 }
 
 .custom-row {
-  background-color: rgb(207, 207, 207);
+  background-color: #b1e4f2;
 }
 
 
