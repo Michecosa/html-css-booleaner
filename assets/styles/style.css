@@ -1,9 +1,12 @@
+
+
 body {
   width: 80%;
   margin: 0 auto;
 }
 
 #banner {
+  width: 100vw;
   background-color: #4ea0ff;
   background-image: url("../img/pattern.png");
   background-size: auto 180px;
@@ -16,7 +19,6 @@ body {
   width: 80%;
   
 }
-
 
 h1 {
   font-size: 50px;
