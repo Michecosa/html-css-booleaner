@@ -2,6 +2,7 @@
 /* Definisco la struttura del sito in modo da centrarne il contenuto e con un certo spaziamento */
 body {
   margin: 0;
+  background-color: #f6f6f6;
 }
 
 /* Modifica del width se l'esigenza era creare una struttura statica
@@ -9,6 +10,9 @@ e che quindi non cambiasse con il ridimensionamento della pagina */
 main {
   width: 1000px;
   margin: 0 auto;
+  background-color: white;
+  padding: 10px;
+  padding-inline: 30px;
 }
 
 
@@ -52,16 +56,16 @@ h1 {
 
 
 
-
-
-/* Immagini dell'articolo */
-.main-pic {
-  height: 500px;
+.main-images {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
-#pics-info {
+figure {
   margin: 0;
-  font-size: 15px;
+  padding: 0;
+  text-align: center;
 }
 
 
