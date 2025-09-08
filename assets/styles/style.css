@@ -51,12 +51,29 @@ table thead {
   background-color: #b1e4f2;
 }
 
-h3 {
+h4 {
   color: #808080;
   margin-bottom: 10px;
 }
 
-#might-like img {
-  margin-inline: auto;
-  margin-bottom: 10px;
+#might-like div {
+  width: fit-content;
+  height: 200px;
+  background-size: cover;
+}
+
+.custom-h3 {
+  margin-left: 10px;
+  margin-right: 55px;
+  margin-top: 10px;
+  color: white;
+}
+
+
+.bottom-image-1 {
+  background-image: url('../img/monitor.jpg');
+}
+
+.bottom-image-2 {
+  background-image: url('../img/graph.jpg');
 }
