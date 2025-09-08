@@ -4,10 +4,13 @@ body {
   margin: 0;
 }
 
+/* Modifica del width se l'esigenza era creare una struttura statica
+e che quindi non cambiasse con il ridimensionamento della pagina */
 main {
-  width: 80%;
+  width: 1000px;
   margin: 0 auto;
 }
+
 
 header {
   background-color: #4ea0ff;
