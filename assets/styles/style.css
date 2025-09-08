@@ -3,6 +3,20 @@ body {
   margin: 0 auto;
 }
 
+h1 {
+  font-size: 50px;
+  margin-bottom: 0;
+}
+
+#byline {
+  font-size: 22px;
+  color: gray;
+}
+
 #the-booleaner {
   color: #28ace6;
+}
+
+#data {
+  font-size: 15px;
 }
